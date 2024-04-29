@@ -1,0 +1,28 @@
+.tag {
+	display: flex;
+	padding: 3px 5px;
+	border-radius: 10px;
+	margin-right: 10px;
+	/* margin-bottom: 10px; */
+	border: 1px solid;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+}
+.close-button {
+	margin-left: 5px;
+	cursor: pointer;
+	border: none;
+	background: none;
+	color: gray;
+	font-size: 16px;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+.responsive-tag-text {
+	overflow-x: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 0 5px 0 5px;
+	max-width: 200px;
+}
